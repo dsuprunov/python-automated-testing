@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    container_name: python-automated-testing
+    volumes:
+      - .:/app
+    command: python3 src/main.py
