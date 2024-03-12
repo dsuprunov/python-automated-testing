@@ -1,1 +1,7 @@
-Automated Testing in Python using pytest, tox, and GitHub Actions
+### Automated Testing in Python 
+
+- pytest
+- flake8
+- tox
+- mypy
+- GitHub Actions
