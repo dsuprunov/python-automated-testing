@@ -25,7 +25,7 @@ def test_concat_exception(test_input, expected):
         concat(*test_input)
 
 
-def time_of_day() -> list[(datetime, str)]:
+def time_of_day() -> list[tuple[datetime, str]]:
     return list(
         map(
             lambda x: (datetime.strptime(x[0], '%Y-%m-%d %H:%M:%S'), x[1]),
