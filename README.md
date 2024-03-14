@@ -1,6 +1,7 @@
 ### Automated Testing in Python (pytest, flake8, mypy, tox and GitHub Actions)
 
 [![Tests](https://github.com/dsuprunov/python-automated-testing/actions/workflows/tests.yml/badge.svg)](https://github.com/dsuprunov/python-automated-testing/actions/workflows/tests.yml)
+[![Docker](https://github.com/dsuprunov/python-automated-testing/actions/workflows/docker.yml/badge.svg)](https://github.com/dsuprunov/python-automated-testing/actions/workflows/docker.yml)
 
 This repository utilizes a custom Docker image based on Ubuntu 22.04 LTS, which incorporates three versions of Python: 3.12, 3.11, and 3.10. The image is derived from `dsuprunov/python-multi-version:latest`. This custom Docker image enables running tests across all three Python versions seamlessly using `tox`.
 
