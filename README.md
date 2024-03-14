@@ -36,7 +36,7 @@ flake8 src tests
 mypy src
 ```
 
-tox (python3.12) + (pytest, flake8, mypy)
+tox
 ```bash
 tox
 ```
